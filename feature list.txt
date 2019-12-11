@@ -1,0 +1,282 @@
+Feature List
+
+Generate Dungeons
+Generate Random Encounters
+Generate Radiant Quests
+Generate NPCs
+Quick Notes
+	for random bursts of inspiration
+	desktop & mobile
+Heraldry
+Characters (PC & NPC)
+	Name
+	DOB
+	Religion
+	Occupation
+	Culture
+	Traits/Appearance
+	Background
+	Knowledge/Secrets
+	Stat Block
+	Active Quests
+Encounters
+	Monsters
+	Puzzles
+	Obstacles
+	Challenges
+	Quest/Quest Chain
+		Defend
+		Deliver
+		Escort
+		Fetch
+		Kill
+Contextual Generation
+	Cascading Traits/Generation
+		Fetch Quest -> if Bard, item can be instrument
+Onboarding
+	Create semi-random Adventure
+	Design small Settlement with NPCs
+World Map
+	Map Views
+		Physical
+			Terrain/Topographical/Climate
+			Terrain Types
+				Farmlands
+				Grasslands
+				Drylands
+				Woods
+				Savannah
+				Forest
+				Steppe
+				Highlands
+				Coastal Desert
+				Coastline
+				Hills
+				Marsh
+				Mountain
+				Jungle
+				Desert
+				Glacial
+				Badlands
+				Abyssal
+				Celestial
+			Climate Types
+				Tropical
+				Arid
+				Humid
+				Chaparral
+				Steppe
+				Tundra
+				Arctic
+			Weather
+		Political
+			Unions/Direct Vassals/Vassal States/Government Types
+			Hierarchy
+				Empire
+				Kingdom
+				Duchy
+				County
+				Hold
+		Religions
+			Majority/Monority/Ruler
+		Economic
+			Development/Infrastructure/Trade Routes/Resources
+			Infrastructure Type
+				Roads
+				Wells
+				Bridges
+				Sewer/Storm Drainage
+				Canals
+				Railroads
+				Electrical Grid
+				Telecommunications
+			Resources
+				Food
+					Seafood
+					Meat
+					Apples
+					Bananas
+					Citrus
+					Dates
+					Spices
+					Tea
+					Cocoa
+					Coffee
+					Sugar
+					Salt
+					Truffles
+					Rice
+					Olives
+					Corn
+					Wheat
+					Barley
+					Rye
+				Livestock/Wildlife
+					Cattle
+					Sheep
+					Pigs
+					Deer
+					Fish
+					Crab
+					Bison
+					Horses
+					Shark
+					Turtles
+					Whales
+					Goats
+					Cats
+					Dogs
+					Elephants
+					Clams
+					Chickens
+					Oxen
+				Drugs
+					Wine
+					Beer/Ale
+					Spirits
+					Tobacco
+				Consumer Goods
+					Clothes
+					Naval Supplies
+					Weapons
+					Armor
+					Art
+					Cosmetics
+					Toys
+					Perfume/Incense
+					Electronics
+					Machine Parts
+				Materials
+					Aluminum
+					Amber
+					Bronze
+					Clay
+					Coal
+					Copper
+					Cotton
+					Dyes
+					Fur
+					Gems
+					Glass
+					Gold
+					Iron
+					Ivory
+					Jade
+					Lumber
+					Marble
+					Oil
+					Paper
+					Pearls
+					Petroleum
+					Plastic
+					Porcelain
+					Quicksilver
+					Saltpeter
+					Silk
+					Silver
+					Stone
+					Sulfur
+					Textiles
+					Tropical Wood
+					Uranium
+					Water
+					Wool
+	Map Icons
+		Hold
+			Tribal Settlement
+			Magical
+			Keep
+			Religious
+			Military
+		Ruins
+		Settlement
+			Homestead (<10)
+				Road
+				Well
+				Farm
+				Orchard
+				Ranch
+				Trapper
+			Hamlet (<100)
+				Mine
+				Forester
+				Dock
+				Plantation
+				Quarry
+			Village (<1,000)
+				Keep/Town Hall
+				Mill
+				Blacksmith
+				Armorsmith
+				General Store
+				Temple/Shrine
+				Inn/Tavern
+				Tailor
+				Cobbler
+				Tanner
+				Butcher
+				Baker
+				Candlestick Maker
+				Pest Control
+				Potter
+				Guard Barracks/Tower
+				Wall
+				Bridge
+
+				Necessary
+					Social
+					Political
+					Economic
+					Religious
+					Military
+			Town (<6,000)
+				Theatre
+				Market
+				Guilds
+				Council
+				Brothel
+				Hirelings
+				Guard Patrol
+				Advanced Infrastructure
+
+			City (<25,000)
+				Magic Component Shop
+				Trinket Shop
+				Alchemist
+				Herbalist
+				Book Store
+				Pawn Shop
+				Toy Shop
+				Pet Shop
+				Jeweler
+				Prison
+				Cathedral
+				Park
+
+			Metropolis (1,000,000+)
+		Dungeon
+		Magic Source
+		Monument
+		Radiation
+		Shipwreck
+		Waypoint
+	Timeline
+		Show map changes over time (political, topological, etc.)
+		Allow alternate timelines
+		Schedule Events
+			Natural
+				Storms
+				Earthquakes
+				Volcanic Activity
+			Social
+				Disease
+				War (Army Movements, Battle, etc.)
+				Birth/Death
+	Write Lore
+		Contextually Display (tooltips)
+		Organize temporally (timeline) and spatially (on map)
+	Cascading Traits/Features
+		Religion
+		Culture
+		Race/Subrace
+		History

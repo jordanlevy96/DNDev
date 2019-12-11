@@ -1,0 +1,35 @@
+{
+    "env": {
+        "commonjs": true,
+        "node": true,
+        "browser": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:jsdoc/recommended",
+        "plugin:node/recommended"
+    ],
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "semi": ["error", "always"],
+        "no-unused-vars": 1,
+        "no-use-before-define": "warn",
+        "jsdoc/require-jsdoc": [
+            "warn",
+            {
+                "require": {
+                    "ArrowFunctionExpression": true,
+                    "ClassDeclaration": true,
+                    "ClassExpression": true,
+                    "FunctionDeclaration": true,
+                    "MethodDefinition": true
+                }
+            }
+        ],
+        "spaced-comment": "error",
+        "comma-dangle": "warn",
+        "prefer-const": "error"
+    }
+}

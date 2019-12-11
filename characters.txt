@@ -1,0 +1,124 @@
+Character
+
+0. Tier
+    Minion
+    Common
+    Influencer
+    Immortal
+1. Weakness
+2. Need
+3. Desire
+4. Enemy
+5. Rumors
+6. Passion
+7. Specialty
+
+
+Name
+    Cultural reference
+    Geo-linguistic reference
+
+Race
+    Ancestry
+    Languages
+
+Appearance
+    Traits
+
+Wisdom
+    Traits
+    Memories
+    People
+    Beliefs
+    Abilities
+
+Stat Block
+    Name
+    Race
+    Alignment
+    AC
+    Hitpoints
+    Speed
+    Ability Scores
+    Skills
+    Senses (Passive Perception)
+    Actions in combat
+    Brief summary
+    Ideal
+    Bond
+    Flaw
+    Motivation
+
+Personality Traits
+    Chaste
+    Lustful
+    Temperate
+    Gluttonous
+    Charitable
+    Greedy
+    Diligent
+    Slothful
+    Patient
+    Wroth
+    Happy
+    Envious
+    Humble
+    Proud
+    Shrewd
+    Dull
+    Ambitious
+    Content
+    Arbitrary
+    Just
+    Brave
+    Craven
+    Cruel
+    Kind
+    Cynical
+    Zealous
+    Erudite
+    Illiterate
+    Honest
+    Deceitful
+    Gregarious
+    Shy
+    Paranoid
+    Trusting
+    Stubborn
+    Compliant
+
+Physical Traits
+    Attractive
+    Ugly
+    Strong
+    Weak
+    Fragrant
+    Fetid
+    Scarred
+
+Magical Traits
+    Disguised
+    Enchanted
+    Possessed
+    Inebriated
+
+Power
+    Influential
+    Economic
+    Military
+    Magical (Arcane/Divine)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

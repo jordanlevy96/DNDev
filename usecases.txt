@@ -1,0 +1,6 @@
+Use Cases
+
+The user writes/prepares a D&D adventure
+The user homebrews monster stat blocks
+The user displays PDF files
+The user writes lore, encounters, secrets, etc.

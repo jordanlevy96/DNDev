@@ -1,0 +1,18 @@
+Divisions of LoreScreen
+
+Cartography
+    Dungeon
+    Wilderness
+    Settlement
+    Planet
+    System
+    Galaxy
+    Universe
+Lore
+    History
+    Backstory
+    Categorization
+Reality
+    Events
+    Encounters
+    Characters
