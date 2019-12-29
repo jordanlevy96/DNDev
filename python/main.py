@@ -1,11 +1,12 @@
 from world.place import Place
 
+from data.connect import connect
 
 def main():
-    print('Hello World!')
-
-    test = Place(['A name!'])
+    test = Place(['Hello, world!'])
     test.whoami()
+
+    connect()
 
 if __name__ == '__main__':
     main()

@@ -2,12 +2,14 @@
 
 import sqlite3
 
-from data.sqlite import executeScriptsFromFile, executeScript
+from data.sqlite import SQLController
 
+def connect():
+    conn = SQLController('data/test.db')
 
-conn = sqlite3.connect('data/test.db')
+    print("Opened database successfully")
 
-print("Opened database successfully")
+    # executeScriptsFromFile(conn, 'data/sql/character_def.sql')
+    conn.executeScriptsFromFile('data/sql/test.sql')
 
-# executeScriptsFromFile(conn, 'data/sql/character_def.sql')
-executeScriptsFromFile(conn, 'data/sql/test.sql')
+    conn.version()
