@@ -1,0 +1,26 @@
+{
+    "ancestry": [
+        "Elf",
+        "Dwarf",
+        "Human",
+        "Daemon",
+        "Beast",
+        "Angel",
+        "Dragon",
+        "Aberration"
+    ],
+    "profession": [
+        "Professor",
+        "Warrior",
+        "Priest",
+        "Thief",
+        "Spy",
+        "Artist",
+        "Engineer",
+        "Scientist",
+        "Cook",
+        "Clerk",
+        "Laborer",
+        "Ruler"
+    ]
+}

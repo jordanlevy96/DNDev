@@ -1,0 +1,68 @@
+{
+    "Armor": [
+        "Gauntlets",
+        "Bracers",
+        "Cuirass",
+        "Helmet",
+        "Pauldrons",
+        "Greaves",
+        "Boots"
+    ],
+    "Clothes": [
+        "Hat",
+        "Shirt",
+        "Coat",
+        "Pants",
+        "Shoes",
+        "Jewelry"
+    ],
+    "Furniture": [
+        "Table",
+        "Chair",
+        "Tapestry",
+        "Television",
+        "Bed",
+        "Drawers",
+        "Bin",
+        "Lamp"
+    ],
+    "Tools": [
+        "Sword",
+        "Hammer",
+        "Axe",
+        "Plough",
+        "Computer",
+        "Book",
+        "Pen",
+        "Game set",
+        "Radio",
+        "Telephone",
+        "Cart",
+        "Gun",
+        "Calendar",
+        "Wires",
+        "Wrench",
+        "Club"
+    ],
+    "Consumables": [
+        "Cheese",
+        "Bread",
+        "Pasta",
+        "Rice",
+        "Potatoes",
+        "Berries",
+        "Apples",
+        "Bananas",
+        "Steak",
+        "Sausage",
+        "Drumstick",
+        "Corn",
+        "Wing",
+        "Broccoli",
+        "Cauliflower",
+        "Egg",
+        "Pastry",
+        "Potion",
+        "Mushroom"
+    ]
+}
