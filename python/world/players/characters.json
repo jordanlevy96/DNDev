@@ -1,11 +1,10 @@
 {
     "ancestry": [
-        "Elf",
-        "Dwarf",
-        "Human",
+        "Humanoid",
         "Daemon",
         "Beast",
-        "Angel",
+        "Celestial",
+        "Construct",
         "Dragon",
         "Aberration"
     ],

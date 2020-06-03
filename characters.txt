@@ -1,36 +1,38 @@
 Character
 
-0. Tier
-    Minion
-    Common
-    Influencer
-    Immortal
-1. Weakness
-2. Need
-3. Desire
-4. Enemy
-5. Rumors
-6. Passion
-7. Specialty
-
-
+Ancestry
+Appearance
+    Traits
+Enemy
 Name
     Cultural reference
     Geo-linguistic reference
-
-Race
-    Ancestry
-    Languages
-
-Appearance
-    Traits
-
+Need
+Past
+Power
+    Influential
+    Economic
+    Military
+    Magical (Arcane/Divine)
+Rumors
 Wisdom
-    Traits
+    Abilities
+    Beliefs
+    Languages
     Memories
     People
-    Beliefs
-    Abilities
+    Traits
+Want
+Tier
+    Minion
+    Common
+    Authority
+    Immortal
+Weakness
+
+
+
+
 
 Stat Block
     Name
@@ -95,18 +97,15 @@ Physical Traits
     Fragrant
     Fetid
     Scarred
+    Slim
+    Bespectacled
+    Stocky
 
 Magical Traits
     Disguised
     Enchanted
     Possessed
     Inebriated
-
-Power
-    Influential
-    Economic
-    Military
-    Magical (Arcane/Divine)
 
 
 

@@ -1,14 +1,6 @@
 const wiki = require('wikijs').default();
-const moment = require('moment');
 
-const timedFunction = async (f, arg) => {
-    console.log('Starting timer...');
-    const startTime = moment();
-    const results = await f(arg);
-    console.log(`⏱ Finished in ${moment().diff(startTime)}ms`);
-
-    return results;
-};
+const { timedFunction } = require('./utils');
 
 const getPageByName = async (name) => {
     const res = await timedFunction(wiki.page, name);
@@ -103,7 +95,7 @@ const getRandomValue = (list) => {
     return list[i];
 }
 
-(async () => {
+const test = async () => {
     console.log('Initializing...');
     // const categories = await getPageInfo('Category:Names');
     // const names = await getCategoryContents();
@@ -116,4 +108,8 @@ const getRandomValue = (list) => {
     console.log(test);
 
     console.log('Finished!');
-})();
+};
+
+module.exports = {
+    test
+};

@@ -60,6 +60,7 @@ World Map
 				Badlands
 				Abyssal
 				Celestial
+				Elemental
 			Climate Types
 				Tropical
 				Arid
@@ -71,7 +72,7 @@ World Map
 			Weather
 		Political
 			Unions/Direct Vassals/Vassal States/Government Types
-			Hierarchy
+			Feudal Hierarchy
 				Empire
 				Kingdom
 				Duchy
@@ -135,6 +136,7 @@ World Map
 					Beer/Ale
 					Spirits
 					Tobacco
+					Zai
 				Consumer Goods
 					Clothes
 					Naval Supplies

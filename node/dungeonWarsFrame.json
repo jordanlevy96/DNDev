@@ -1,0 +1,63 @@
+{
+    "Tiers": [
+        "Adventurer",
+        "Hero",
+        "Paragon",
+        "Titan"
+    ],
+    "RoomTypes": [
+        "Trap",
+        "Battle",
+        "Treasure"
+    ],
+    "Trap": {
+        "Adventurer": {
+            "DC": "8-12",
+            "Damage": "1-4 d10",
+            "SpellLevel": "0-2"
+        },
+        "Hero": {
+            "DC": "12-15",
+            "Damage": "2-10 d10",
+            "SpellLevel": "1-6"
+        },
+        "Paragon": {
+            "DC": "15-18",
+            "Damage": "4-18 d10",
+            "SpellLevel": "3-9"
+        },
+        "Titan": {
+            "DC": "19-22",
+            "Damage": "10-24 d10",
+            "SpellLevel": "6-14"
+        }
+    },
+    "Battle": {
+        "Adventurer": {
+            "CRMax": 4
+        },
+        "Hero": {
+            "CRMax": 11
+        },
+        "Paragon": {
+            "CRMax": 18
+        },
+        "Titan": {
+            "CRMax": -1
+        }
+    },
+    "Treasure": {
+        "Adventurer": {
+            "Multiplier": 0.5
+        },
+        "Hero": {
+            "Multiplier": 1
+        },
+        "Paragon": {
+            "Multiplier:": 2
+        },
+        "Titan": {
+            "Multiplier": 4
+        }
+    }
+}

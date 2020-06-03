@@ -1,8 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/Jordan/DM IDE"
-CMake Error at CMakeLists.txt:9:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "CLION_EXE_DIR=${PROJECT_BINARY_DIR}".
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/Jordan/DM IDE/cmake-build-debug/CMakeFiles/CMakeOutput.log".
