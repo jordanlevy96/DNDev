@@ -1,3 +1,4 @@
+const cors = require('cors');
 const express = require('express');
 
 const wiki = require('./wikiController');
@@ -11,6 +12,8 @@ let cachedMonsters;
 const runExpress = async () => {
     const app = express();
 
+    app.use(cors());
+
     await initializeApp(app);
 
     app.listen(4200, () => console.log(`App listening at http://localhost:4200`));
@@ -18,6 +21,8 @@ const runExpress = async () => {
 
 const initializeApp = async (app) => {
     // Initialize Endpoints
+    app.get('/heartbeat', heartbeatEndpoint);
+
     app.get('/getMonster', getMonstersEndpoint);
 
     app.post('/generate', generateEndpoint);
@@ -43,6 +48,12 @@ const getMonstersEndpoint = async (req, res) => {
 
     res.status(200).send(monster);
 };
+
+const heartbeatEndpoint = async (req, res) => {
+    console.log('GET heartbeat');
+
+    res.status(200).send('💗');
+}
 
 (async () => {
     await runExpress();

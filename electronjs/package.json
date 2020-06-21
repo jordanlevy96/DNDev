@@ -8,8 +8,10 @@
     "@testing-library/user-event": "^7.1.2",
     "dotenv": "^8.2.0",
     "react": "^16.13.1",
+    "react-async": "^10.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "superagent": "^5.2.2"
   },
   "main": "src/electron-starter.js",
   "scripts": {
@@ -37,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "electron": "^9.0.0",
-    "eslint": "^7.1.0"
+    "electron": "^9.0.0"
   }
 }
