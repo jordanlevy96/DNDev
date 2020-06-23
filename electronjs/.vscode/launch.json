@@ -5,16 +5,35 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug Main Process",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "React Breakpoints",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch React",
             "type": "node",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
-            "windows": {
-                "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
-            },
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/react-scripts",
             "args": [
-                "."
+                "start"
+            ],
+            "outputCapture": "std",
+            "env": {
+                "BROWSER": "none"
+            }
+        },
+        {
+            "name": "Debug Electron",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "node",
+            "args": [
+                "electron-wait-react"
             ],
             "outputCapture": "std"
         }
