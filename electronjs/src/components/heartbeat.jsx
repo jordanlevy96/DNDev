@@ -3,7 +3,7 @@ import React from 'react';
 // import request from 'superagent';
 // import './request.css'
 
-// const request = require('superagent');
+const request = require('superagent');
 
 const url = 'http://localhost:4200/heartbeat';
 
@@ -17,15 +17,14 @@ export default class Heartbeat extends React.Component {
     }
     
     async componentDidMount() {
-      const res = await fetch(url);
-      console.log(res);
-      const {ip} = await res.json();
-      await this.setStateAsync({ipAddress: ip});
+      const res = await request.get(url);
+      console.log(res.text);
+      await this.setStateAsync({heartbeat: res.text});
     }
     
     render() {
       return (
-          <h1>My IP is {this.state.ipAddress || 'Unknown'} </h1>
+          <h1>{this.state.heartbeat || '💀'} </h1>
       );
     }
   }
