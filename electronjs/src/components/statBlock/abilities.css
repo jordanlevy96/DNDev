@@ -1,0 +1,26 @@
+.abilities {
+    text-align: center;
+    color: #922610;
+}
+
+.abilities>div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15.5%;
+    min-width: 40px;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.abilities h4 {
+    margin: 10px 0 2px;
+    font-size: 14px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #7A200D;
+}
+
+.abilities p {
+    margin: 0 0 10px;
+    line-height: 1.2em;
+}
