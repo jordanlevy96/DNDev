@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "firefox",
+            "name": "Launch Chrome",
             "request": "launch",
-            "reAttach": true,
-            "name": "React Breakpoints",
+            "type": "pwa-chrome",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "timeout": 30000
         },
         {
             "name": "Launch React",
