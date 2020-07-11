@@ -1,5 +1,5 @@
 import React from 'react';
-import DisplayPair from './displayPair';
+import LineProperty from './lineProperty';
 import Abilities from './abilities';
 
 export default class Basics extends React.Component {
@@ -19,38 +19,24 @@ export default class Basics extends React.Component {
     render() {
       return (
         <div class="top-stats">
-        <DisplayPair name="Armor Class" value={`${this.props.ac}${', ' + this.props.armorDesc || ''}`}></DisplayPair>
-        <DisplayPair name="Hit Points" value={`${this.props.hp} (${this.props.hd})`}></DisplayPair>
-        <DisplayPair name="Speed" value={this.formatSpeed(this.props.speed)}></DisplayPair>
-        <svg height="5" width="100%" class="tapered-rule">
+          <LineProperty name="Armor Class" value={`${this.props.ac}${', ' + this.props.armorDesc || ''}`}></LineProperty>
+          <LineProperty name="Hit Points" value={`${this.props.hp} (${this.props.hd})`}></LineProperty>
+          <LineProperty name="Speed" value={this.formatSpeed(this.props.speed)}></LineProperty>
+          <svg height="5" width="100%" class="tapered-rule">
+            <polyline points="0,0 400,2.5 0,5"></polyline>
+          </svg>
+          <Abilities abilities={this.props.abilities}></Abilities>
+          <svg height="5" width="100%" class="tapered-rule">
           <polyline points="0,0 400,2.5 0,5"></polyline>
-        </svg>
-        <Abilities abilities={this.props.abilities}></Abilities>
-        <svg height="5" width="100%" class="tapered-rule">
-        <polyline points="0,0 400,2.5 0,5"></polyline>
-        </svg>
-        <div class="property-line first">
-          <h4>Damage Immunities</h4>
-          <p>poison, psychic</p>
-        </div>
-        <div class="property-line">
-          <h4>Condition Immunities</h4>
-          <p>blinded, charmed, deafened, exhaustion, frightened,
-              petrified, poisoned</p>
-        </div>
-        <div class="property-line">
-          <h4>Senses</h4>
-          <p>blindsight 60ft. (blind beyond this radius), passive Perception 6</p>
+          </svg>
+          <LineProperty name="Damage Vulnerabilities" value={this.props.damage_vulnerabilities}></LineProperty>
+          <LineProperty name="Damage Resistances" value={this.props.damage_resistances}></LineProperty>
+          <LineProperty name="Damage Immunities" value={this.props.damage_immunities}></LineProperty>
+          <LineProperty name="Condition Immunities" value={this.props.condition_immunities}></LineProperty>
+          <LineProperty name="Senses" value={this.props.senses}></LineProperty>
+          <LineProperty name="Languages" value={this.props.languages}></LineProperty>
+          <LineProperty name="Challenge " value={this.props.challenge}></LineProperty>
         </div> 
-        <div class="property-line">
-          <h4>Languages</h4>
-          <p>&mdash;</p>
-        </div>
-        <div class="property-line last">
-          <h4>Challenge</h4>
-          <p>1 (200 XP)</p>
-        </div> 
-      </div> 
       );
     }
   }

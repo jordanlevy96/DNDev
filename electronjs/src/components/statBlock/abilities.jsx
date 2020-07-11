@@ -18,7 +18,6 @@ export default class Abilities extends React.Component {
       if (abilities) {
         const names = Object.keys(abilities);
         mapped = names.map((name) => this.handleAbility(name, abilities[name]));
-        // mapped = <div></div>;
       }
       return mapped;
     }

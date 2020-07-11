@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Folder root="Material Plane" contents={["Forgotten Realms", "Eberron"]}></Folder>
+      <Folder root="Material Plane" contents={["Forgotten Realms", "Eberron", "Distant Stars"]}></Folder>
       </header>
       <Browser></Browser>
     </div>

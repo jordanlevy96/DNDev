@@ -83,32 +83,6 @@ body * {
   stroke: #922610;
 }
 
-.property-line h4, .property-line p {
-  display: inline;
-  margin: 0;
-  color: #922610;
-  font-size: 13.5px;
-  line-height: 1.2em;
-}
-
-.property-line h4 {
-  color: #7A200D;
-}
-
-.property-line {
-  text-indent: -1em;
-  padding-left: 1.1em;
-  line-height: 1.4em;
-}
-
-.property-line.first {
-  margin: 8px 0 0
-}
-
-.property-line.last {
-  margin: 0 0 10px;
-}
-
 .property-block h4, .property-block p {
   font-size: 13.5px;
   line-height: 1.2em;
