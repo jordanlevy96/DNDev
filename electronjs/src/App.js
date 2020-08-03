@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Folder from './components/Folder.js';
+import Folder from './components/Folder.jsx';
 import Browser from './components/Browser.jsx';
 console.log('App.js loading...');
 
