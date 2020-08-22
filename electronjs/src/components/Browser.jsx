@@ -4,7 +4,6 @@ import './Browser.css'
 import Monster from './statBlock/creature';
 import QuillText from './QuillText';
 
-
 export default class Browser extends React.Component {
     render() {
         return <div class="Browser">
