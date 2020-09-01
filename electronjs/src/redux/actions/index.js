@@ -3,3 +3,9 @@ export const toggle = () => {
         type: 'TOGGLE'
     }
 }
+
+export const saveText = () => {
+    return {
+        type: 'SAVE_TEXT'
+    }
+}

@@ -11,8 +11,8 @@ export default class Browser extends React.Component {
             {this.props.render}
             <Heartbeat></Heartbeat>
             <Brain></Brain>
-            <Creature></Creature>
-            {/* <QuillText value="hello"></QuillText> */}
+            {/* <Creature></Creature> */}
+            <QuillText value="hello"></QuillText>
         </div>
     }
 };

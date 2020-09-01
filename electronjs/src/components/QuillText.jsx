@@ -2,18 +2,29 @@ import React, { useState } from "react";
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
-/**
- * Component for WYSIWYG text editor
- */
-export default class QuillText extends React.Component {
-  handleChange = (text) => {
-    console.log(text);
-  }
+import { useSelector, useDispatch } from 'react-redux';
+import { saveText } from '../redux/actions';
 
-  render() {
-    return (
-      <ReactQuill theme="snow" value={this.props.value} onChange={this.handleChange}/>
-    );
-  }
-  
+/**
+ * WYSIWYG text editor
+ */
+export default function QuillText(props) {
+const dispatch = useDispatch();
+
+const [value, setValue] = useState(props.value);
+const [title] = useState('');
+
+const handleChange = () => {
+  console.log(value);
+  dispatch(saveText(value));
 }
+
+  return (
+    <div>
+      <h1>{title}</h1>
+      <ReactQuill theme="snow" value={value} onChange={setValue}/>
+      <button onClick={handleChange}>Save</button>
+    </div>
+  );
+}
+
