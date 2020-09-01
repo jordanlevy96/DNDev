@@ -12,9 +12,7 @@ const getAllMonsters = async () => {
     while (url) {
         const response = await request.get(url);
         response.body.results.map((result) => {
-            const name = result.name;
-            delete result.name;
-            monsters[name] = result;
+            monsters[result.name] = result;
         });
         url = response.body.next;
     }
