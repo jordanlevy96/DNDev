@@ -4,11 +4,23 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { createStore } from 'redux';
+import { Provider } from 'react-redux'; 
+import allReducers from './redux/reducers';
+
+// STORE - globalized state
+const store = createStore(
+  allReducers, /* preloadedState, */
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+
 require('dotenv').config()
 
 ReactDOM.render(
   <React.StrictMode>
+    <Provider store={store}>
     <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -18,5 +30,5 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-console.log('index.js loaded.');
+console.log('root index.js loaded.');
 console.log(process.env.ENV_VAR);

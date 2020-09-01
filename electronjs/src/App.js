@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 import Browser from './components/Browser.jsx';
 import Nav from './components/navBar/nav';
-console.log('App.js loading...');
 
 function App() {
   return (
