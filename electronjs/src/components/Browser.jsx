@@ -2,6 +2,7 @@ import React from 'react';
 import Heartbeat from './Heartbeat';
 import './Browser.css'
 import Creature from './Creature/Creature';
+import Window from './Window';
 import QuillText from './QuillText';
 import Brain from './Brain';
 
@@ -10,7 +11,9 @@ export default class Browser extends React.Component {
         return <div class="Browser">
             {this.props.render}
             <Heartbeat></Heartbeat>
-            <Brain></Brain>
+            <Window>
+                <Brain></Brain>
+            </Window>
             {/* <Creature></Creature> */}
             <QuillText value="hello"></QuillText>
         </div>
