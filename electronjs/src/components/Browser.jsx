@@ -10,12 +10,16 @@ export default class Browser extends React.Component {
     render() {
         return <div class="Browser">
             {this.props.render}
-            <Heartbeat></Heartbeat>
             <Window>
+                <Heartbeat></Heartbeat>
                 <Brain></Brain>
             </Window>
-            {/* <Creature></Creature> */}
-            <QuillText value="hello"></QuillText>
+            {/* <Window>
+                <Creature></Creature>
+            </Window> */}
+            <Window>
+                <QuillText value="hello"></QuillText>
+            </Window>
         </div>
     }
 };

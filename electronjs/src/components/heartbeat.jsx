@@ -1,9 +1,5 @@
 import React from 'react';
-// import Async from 'react-async';
-// import request from 'superagent';
-// import './request.css'
-
-const request = require('superagent');
+import request from 'superagent';
 
 const url = 'http://localhost:4200/heartbeat';
 
