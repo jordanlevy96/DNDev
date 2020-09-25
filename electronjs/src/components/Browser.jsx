@@ -1,5 +1,5 @@
 import React from 'react';
-import Heartbeat from './Heartbeat';
+import Heartbeat from './heartbeat';
 import './Browser.css'
 import Creature from './Creature/Creature';
 import Window from './Window';
@@ -14,9 +14,9 @@ export default class Browser extends React.Component {
                 <Heartbeat></Heartbeat>
                 <Brain></Brain>
             </Window>
-            {/* <Window>
+            <Window>
                 <Creature></Creature>
-            </Window> */}
+            </Window>
             <Window>
                 <QuillText value="hello"></QuillText>
             </Window>
